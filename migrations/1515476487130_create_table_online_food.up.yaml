@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "online_food"("name" text NOT NULL, "email" text NOT NULL, "mobile"
+      bigint NOT NULL, "date" text NOT NULL, "member" text NOT NULL, "time" text NOT
+      NULL, "menu" text NOT NULL, PRIMARY KEY ("email") )
+  type: run_sql
+- args:
+    name: online_food
+  type: add_existing_table_or_view

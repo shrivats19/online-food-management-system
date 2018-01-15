@@ -1,0 +1,18 @@
+- args:
+    role: anonymous
+    table: online_food
+  type: drop_update_permission
+- args:
+    permission:
+      columns:
+      - name
+      - email
+      - mobile
+      - date
+      - member
+      - time
+      - menu
+      filter: {}
+    role: anonymous
+    table: online_food
+  type: create_update_permission
